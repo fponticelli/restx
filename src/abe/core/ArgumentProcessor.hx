@@ -26,6 +26,7 @@ class ArgumentProcessor<TArgs : {}> {
         case None if(r.optional):
           Reflect.setField(results, r.name, null);
         case None:
+          trace("Parameter is missing from request: " + r.name);
           return Future.value(Required(r.name));
       }
     }
