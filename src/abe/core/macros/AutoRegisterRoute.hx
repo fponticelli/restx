@@ -330,6 +330,13 @@ class AutoRegisterRoute {
         case Query, Params, Body, Request:
         case _: Context.error('"$source" is not a valid @:source()', field.pos);
       });
+
+    // don't compile if :use(injectUserIdFromToken) is present but Query is not in the :args metadata
+    var injectUserIdMeta = findMeta(field.meta.get(), ":use");
+    if ('$injectUserIdMeta'.indexOf("injectUserIdFromToken") > -1 && sources.indexOf(Source.Query) == -1) {
+      Context.error("Error: injectUserIdFromToken requires Query in :args metadata.", field.pos);
+    }
+
     return sources;
   }
 }
