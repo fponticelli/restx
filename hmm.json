@@ -3,18 +3,21 @@
     {
       "name": "express",
       "type": "git",
+      "dir": "src",
       "ref": "2f695ee",
       "url": "https://github.com/abedev/hxexpress"
     },
     {
       "name": "hxnodejs",
       "type": "git",
+      "dir": "src",
       "ref": "899244b",
       "url": "https://github.com/HaxeFoundation/hxnodejs"
     },
     {
       "name": "jsrequire",
       "type": "git",
+      "dir": "src",
       "ref": "e1c1141",
       "url": "https://github.com/abedev/jsrequire"
     },
