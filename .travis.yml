@@ -18,8 +18,8 @@ haxe:
 install:
   - haxelib install hmm
   - haxelib run hmm install
+  - haxelib install travix
   - haxelib dev abe .
-  # - haxelib install travix
   # - haxelib run travix install
 
 script:
