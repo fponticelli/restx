@@ -20,7 +20,7 @@ install:
   - haxelib install hmm
   - yes | haxelib run hmm install
   - haxelib dev abe .
-  # - haxelib run travix install
+  - haxelib run travix install
 
 script:
   - haxelib run travix node
