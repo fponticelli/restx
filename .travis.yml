@@ -16,8 +16,11 @@ haxe:
 #     - haxe: development
 
 install:
-  - haxelib install travix
-  - haxelib run travix install
+  - haxelib install hmm
+  - haxelib run hmm install
+  - haxelib dev abe .
+  # - haxelib install travix
+  # - haxelib run travix install
 
 script:
   - haxelib run travix node
