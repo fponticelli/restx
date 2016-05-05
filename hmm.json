@@ -29,7 +29,7 @@
       "name": "thx.core",
       "type": "git",
       "dir": "src",
-      "ref": "19ca894",
+      "ref": "73395ca",
       "url": "git@github.com:fponticelli/thx.core"
     },
     {
@@ -38,6 +38,11 @@
       "dir": "src",
       "ref": "4eb6f93",
       "url": "git@github.com:fponticelli/thx.promise"
+    },
+    {
+      "name": "travix",
+      "type": "haxelib",
+      "version": ""
     },
     {
       "name": "utest",
