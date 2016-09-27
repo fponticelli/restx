@@ -23,11 +23,10 @@ class Ports {
         reject(new thx.Error('Port $port on $host is unavailable'));
       });
       client.once("error", function(e) {
-        cleanup();
-        if(/*e.code == "ECONNREFUSED" || */e.code == "ENOTFOUND")
+        if(e.code == "ECONNREFUSED" || e.code == "ENOTFOUND")
           resolve(Nil.nil);
         else
-          reject(thx.Error.fromDynamic(e));
+          reject(new thx.Error('Port $port on $host is unavailable: ${e}'));
       });
       client.connect({ port : port, host : host });
     });
