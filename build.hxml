@@ -1,13 +1,2 @@
--lib thx.core
--lib thx.promise
--lib hxnodejs
--lib utest
--lib express
--lib npm
--lib jsrequire
--cp src
--cp extern
--cp test
--main TestAll
--js bin/test.js
+-cmd haxe tests.hxml -js bin/test.js
 -cmd node bin/test.js

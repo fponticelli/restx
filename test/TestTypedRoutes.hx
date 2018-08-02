@@ -149,7 +149,7 @@ class TypedRoutes implements abe.IRoute {
   function future() return Future.value("OK");
 
   @:get("/file")
-  function file() return (js.Node.__dirname : thx.Path) / "../assets/abe-logo.svg";
+  function file() return (js.Node.process.cwd() : thx.Path) / "assets/abe-logo.svg";
 
   @:get("/redirect")
   function redirect() return ('http://localhost:${TestCalls.port}/typed/test/text/' : thx.Url);

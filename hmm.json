@@ -3,48 +3,56 @@
     {
       "name": "express",
       "type": "git",
+      "dir": "src",
       "ref": "2f695ee",
-      "url": "git@github.com:abedev/hxexpress"
+      "url": "https://github.com/abedev/hxexpress"
     },
     {
       "name": "hxnodejs",
       "type": "git",
+      "dir": "src",
       "ref": "899244b",
-      "url": "git@github.com:HaxeFoundation/hxnodejs"
+      "url": "https://github.com/HaxeFoundation/hxnodejs"
     },
     {
       "name": "jsrequire",
       "type": "git",
+      "dir": "src",
       "ref": "e1c1141",
-      "url": "git@github.com:abedev/jsrequire"
+      "url": "https://github.com/abedev/jsrequire"
     },
     {
       "name": "npm",
       "type": "git",
       "dir": "src",
       "ref": "67c8d39",
-      "url": "git@github.com:abedev/npm"
+      "url": "https://github.com/abedev/npm"
     },
     {
       "name": "thx.core",
       "type": "git",
       "dir": "src",
-      "ref": "19ca894",
-      "url": "git@github.com:fponticelli/thx.core"
+      "ref": "73395ca",
+      "url": "https://github.com/fponticelli/thx.core"
     },
     {
       "name": "thx.promise",
       "type": "git",
       "dir": "src",
       "ref": "4eb6f93",
-      "url": "git@github.com:fponticelli/thx.promise"
+      "url": "https://github.com/fponticelli/thx.promise"
+    },
+    {
+      "name": "travix",
+      "type": "haxelib",
+      "version": ""
     },
     {
       "name": "utest",
       "type": "git",
       "dir": "src",
       "ref": "ecbd3ad",
-      "url": "git@github.com:fponticelli/utest"
+      "url": "https://github.com/fponticelli/utest"
     }
   ]
 }
